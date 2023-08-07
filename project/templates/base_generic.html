@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="b">
 <!-- Это базовый шаблон, сюда вписываем header и footer, body трогать не надо -->
 <head>
     <meta charset="UTF-8">
@@ -16,20 +16,19 @@
     <link rel="stylesheet" href="{% static 'css/styles.css' %}" />
 
 </head>
-<h1>Здесь будет хедер, работаем</h1>
 <header>
   <div class="logo">
       <a href="/">
-          <img src="project/static/img/logo/tektum.jpg" width="256px" height="128px" />
+          <img src="{% static 'img/logo/tektum.jpg' %}" width="256px" height="128px" />
         </a>
   </div>
 
   <nav>
       <ul class="menu">
           <li><a href="/inf" class="menu-item h_style">Информация о компании</a></li>
-          <li><a href="/portfolio" class="menu-item h_style">Услуги</a></li>
-          <li><a href="/partners" class="menu-item h_style">Блог</a></li>
-          <li><a href="/feedback" class="menu-item h_style">Контакты</a></li>
+          <li><a href="/portfolio" class="menu-item h_style">Портфолио</a></li>
+          <li><a href="/partners" class="menu-item h_style">Наши партнеры</a></li>
+          <li><a href="/feedback" class="menu-item h_style">Отзывы</a></li>
           <li><a href="/call" class="menu-item h_style">Заказать звонок</a></li>
       </ul>
   </nav>
