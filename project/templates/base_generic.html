@@ -18,6 +18,35 @@
 </head>
 <h1>Здесь будет хедер, работаем</h1>
 <header>
+  <div class="logo">
+      <a href="/">
+          <img src="project/static/img/logo/tektum.jpg" width="256px" height="128px" />
+        </a>
+  </div>
+
+  <nav>
+      <ul class="menu">
+          <li><a href="/inf" class="menu-item h_style">Информация о компании</a></li>
+          <li><a href="/portfolio" class="menu-item h_style">Услуги</a></li>
+          <li><a href="/partners" class="menu-item h_style">Блог</a></li>
+          <li><a href="/feedback" class="menu-item h_style">Контакты</a></li>
+          <li><a href="/call" class="menu-item h_style">Заказать звонок</a></li>
+      </ul>
+  </nav>
+
+  <script>
+      const menuItems = document.querySelectorAll('.menu-item');
+    
+      menuItems.forEach(item => {
+        item.addEventListener('click', function() {
+          
+          menuItems.forEach(item => item.classList.remove('active'));
+          
+          this.classList.add('active');
+        });
+      });
+    </script>
+    
 
 </header>
 
@@ -26,8 +55,16 @@
 {% block content %} <!-- Здесь появляется контент с других страниц --> {% endblock %}
 </body>
 
-
 <footer>
-<h1>Здесь будет футер, всё в порядке</h1>
+  <div class="footer-content ml">
+    <div class="footer-contact">
+      <h3>Контакты</h3>
+      <p>Адрес: ул. Строительная, 123</p>
+      <p>Телефон: +7 (123) 456-7890</p>
+      <p>Email: info@company.com</p>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>© 2023 Строительная компания. Все права защищены.</p>
+  </div>
 </footer>
-</html>
