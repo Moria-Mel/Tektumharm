@@ -36,7 +36,7 @@ header{
   
 .left-column {
     flex: 1;
-    padding-left: 3%;
+    padding-left: 0.1%;
     padding-right: 1.5%;
 }
   
@@ -76,6 +76,16 @@ header{
     cursor: pointer;
     text-align: justify;
 }
+
+.custom-button1 {
+    padding: 2% 10%;
+    border: none;
+    background-color: #E21E25;
+    color: #fff;
+    cursor: pointer;
+    text-align: justify;
+}
+
 .mr {
     margin-right: 3%;
 }
