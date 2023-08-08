@@ -32,10 +32,12 @@ header{
 
 .container {
     display: flex;
+    width: 100%;
 }
   
 .left-column {
     flex: 1;
+    padding-left: 2%;
 }
   
 .right-column {
@@ -47,20 +49,31 @@ header{
 .mp_style {
     text-decoration: none;
     text-align: justify;
-    font-family: sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #000;
     font-size: 170%;
 }
+
+.mp_style1 {
+    text-decoration: none;
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #000;
+    font-size: 130%;
+    line-height: 1.8;
+}
+
 .h_style {
     text-align: justify;
     font-family: sans-serif;
     color: #000;
-    font-size: 140%;
+    font-size: 130%;
     text-decoration: none;
 }
 .mp_class {
-    padding-left: 3%;
-    padding-right: 3%;
+    padding-left: 0.1%;
+    padding-right: 7%;
+    width: 100%;
 }
 .button-container {
     display: flex;
@@ -88,18 +101,18 @@ header{
     margin-right: 3%;
 }
 .ml {
-    margin-left: 3%;
+    margin-left: 10%;
 }
 footer {
     color: #000000;
     padding: 20px 0;
 }
-  
+
 .footer-content {
     display: flex;
     justify-content: left;
     align-items: center;
-    font-family: sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: small;
     color: #2B2A28;
 } 
@@ -110,11 +123,15 @@ footer {
 .footer-bottom {
     text-align: center;
     padding: 10px 0;
-    font-family: sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: small;
     color: #2B2A28;
 }
   
 .footer-bottom p {
     margin: 0;
+}
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
 }
