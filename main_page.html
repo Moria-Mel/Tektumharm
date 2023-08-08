@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en"  class="b">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<header>
+    <div class="logo">
+        <a href="/">
+            <img src="project/static/img/logo/tektum.jpg" width="256px" height="128px" />
+          </a>
+    </div>
+
+    <nav>
+        <ul class="menu">
+            <li><a href="/inf" class="menu-item h_style">Информация о компании</a></li>
+            <li><a href="/portfolio" class="menu-item h_style">Услуги</a></li>
+            <li><a href="/partners" class="menu-item h_style">Блог</a></li>
+            <li><a href="/feedback" class="menu-item h_style">Контакты</a></li>
+            <li><a href="/call" class="menu-item h_style">Заказать звонок</a></li>
+        </ul>
+    </nav>
+
+    <script>
+        const menuItems = document.querySelectorAll('.menu-item');
+      
+        menuItems.forEach(item => {
+          item.addEventListener('click', function() {
+            // Удалить активное состояние со всех кнопок
+            menuItems.forEach(item => item.classList.remove('active'));
+            // Добавить активное состояние к нажатой кнопке
+            this.classList.add('active');
+          });
+        });
+      </script>
+      
+
+</header>
+
+<body>
+    <div class="container">
+        <div class="left-column">
+            <h1 class="mp_style">Main header</h1>   
+            <p class="mp_style">Наше дело не так однозначно, как может показаться: базовый вектор развития однозначно фиксирует необходимость форм воздействия. Как уже неоднократно упомянуто, реплицированные с зарубежных источников, современные исследования формируют глобальную экономическую сеть и при этом — превращены в посмешище, хотя само их существование приносит несомненную пользу обществу. Имеется спорная точка зрения, гласящая примерно следующее: акционеры крупнейших компаний подвергнуты целой серии независимых исследований. Не следует, однако, забывать, что понимание сути ресурсосберегающих технологий влечет за собой процесс внедрения и модернизации кластеризации усилий.</p>
+        </div>
+
+        <div class="right-column">
+            <img src="project/static/img/logo/christina-wocintechchat-com-0Zx1bDv5BNY-unsplash.jpg" alt="people at work" height="697px" width="633px">
+        </div>
+    </div> 
+    
+    <div>
+        <p class="mp_style mp_class">Учитывая ключевые сценарии поведения, новая модель организационной деятельности прекрасно подходит для реализации как самодостаточных, так и внешне зависимых концептуальных решений. Равным образом, сплочённость команды профессионалов обеспечивает широкому кругу (специалистов) участие в формировании системы обучения кадров, соответствующей насущным потребностям. В частности, высокотехнологичная концепция общественного уклада требует анализа стандартных подходов. Противоположная точка зрения подразумевает, что представители современных социальных резервов являются только методом политического участия и смешаны с не уникальными данными до степени совершенной неузнаваемости, из-за чего возрастает их статус бесполезности. Сложно сказать, почему сторонники тоталитаризма в науке набирают популярность среди определенных слоев населения, а значит, должны быть подвергнуты целой серии независимых исследований. Как уже неоднократно упомянуто, сделанные на базе интернет-аналитики выводы будут в равной степени предоставлены сами себе.</p>
+    </div>
+
+    <div class="button-container">
+        <button class="custom-button ml mr mp_style">Предложение заказать звонок</button>
+        <button class="custom-button mr mp_style">Большая акцентная кнопка заказа</button>
+    </div>
+
+</body>
+
+    <footer>
+        <div class="footer-content ml">
+          <div class="footer-contact">
+            <h3>Контакты</h3>
+            <p>Адрес: ул. Строительная, 123</p>
+            <p>Телефон: +7 (123) 456-7890</p>
+            <p>Email: info@company.com</p>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>© 2023 Строительная компания. Все права защищены.</p>
+        </div>
+      </footer>
+
+
+</html>
