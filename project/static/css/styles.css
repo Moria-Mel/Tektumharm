@@ -36,8 +36,6 @@ header{
   
 .left-column {
     flex: 1;
-    padding-left: 0.1%;
-    padding-right: 1.5%;
 }
   
 .right-column {
