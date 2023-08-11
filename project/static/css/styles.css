@@ -44,7 +44,7 @@ header{
     flex: 1;
     padding-left: 1.5%;
     padding-top: 1.5%;
-    padding-right: 3%;
+    padding-right: 2%;
 }
 .mp_style {
     text-decoration: none;
@@ -71,12 +71,16 @@ header{
     text-decoration: none;
 }
 .mp_class {
-    padding-left: 0.1%;
-    padding-right: 7%;
+    text-align: left;
     width: 100%;
+    padding-right: 3%;
+    padding-left: 1%;
+    padding-top: 4%;
+    padding-bottom: 4%;
 }
 .button-container {
     display: flex;
+    padding-left: 1%;
 }
   
 .custom-button {
@@ -101,7 +105,7 @@ header{
     margin-right: 3%;
 }
 .ml {
-    margin-left: 10%;
+    margin-left: 2%;
 }
 footer {
     color: #000000;
